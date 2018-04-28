@@ -21,6 +21,7 @@ sudo yum install -y epel-release
 sudo yum install -y atk.x86_64
 sudo yum install -y gdk-pixbuf2.x86_64
 sudo yum install -y gtk3-devel.x86_64
+sudo yum groupinstall -y "fonts"
 
 sudo npm install -g n
 sudo n lts
